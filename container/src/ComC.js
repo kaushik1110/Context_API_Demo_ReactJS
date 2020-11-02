@@ -17,7 +17,6 @@ const ComC = () => {
       <button onClick={()=>fname.changeHandler(Value)}>Change Data</button>
       </div>
       <div>
-        
       </div>
     </>
   );

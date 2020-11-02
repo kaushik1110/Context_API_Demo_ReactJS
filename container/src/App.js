@@ -21,9 +21,9 @@ const App = () => {
 
   const changed = {
     ...state1,
-    changeHandler: (Value) => changeHandler(Value), 
     // changeHandler: changeHandler,
     // changeNameHandler: changeNameHandler,
+    changeHandler: (Value) => changeHandler(Value), 
   };
 
   return (
